@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Baloo';
+    src: url('./baloo/Baloo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Al Bayan';
+    src: url('./al-bayan/AlBayan.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('./product-sans/Product\ Sans\ Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Aksara Bali Galang';
+    src: url('./aksarabaligalang/AksaraBaliGalang-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Product Sans Bold';
+    src: url('./product-sans/Product\ Sans\ Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Product Sans Light';
+    src: url('./product-sans/Product\ Sans\ Light.ttf') format('truetype');
+}

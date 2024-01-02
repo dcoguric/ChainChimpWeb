@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "vue-pinch-zoom": "^1.0.1",
+    "vue2-touch-events": "^3.2.3"
+  }
+}
