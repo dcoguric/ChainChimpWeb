@@ -1,14 +1,14 @@
 <template>
 <div id="footer">
-    <nav>
-        <h1 id="title">Chain Chimp</h1>
-            <h2 class="section-link">Expertise</h2>
-            <h2 class="section-link">Services</h2>
-            <h2 class="section-link">Roadmap</h2>
-            <h2 class="section-link">Team</h2>
-            <h2 class="section-link">Partners</h2>
-            <div id="socials">
-                <a href="#" id="x-logo" class="socials-logo">
+    <div id="nav">
+        <h1 id="footer-title">Chain Chimp</h1>
+            <h2 class="footer-section-link">Expertise</h2>
+            <h2 class="footer-section-link">Services</h2>
+            <h2 class="footer-section-link">Roadmap</h2>
+            <h2 class="footer-section-link">Team</h2>
+            <h2 class="footer-section-link">Partners</h2>
+            <div id="footer-socials">
+                <a href="#" id="footer-x-logo" class="footer-socials-logo">
                     <svg xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57" fill="none">
                     <rect width="56.2279" height="56.2279" rx="28.1139" fill="url(#paint0_linear_52_6248)" fill-opacity="0.02"/>
                     <rect x="0.464823" y="0.464823" width="55.2982" height="55.2982" rx="27.6491" stroke="#C6E5F7" stroke-opacity="0.1" stroke-width="0.929646"/>
@@ -21,7 +21,7 @@
                     </defs>
                     </svg>
                 </a>
-                <a href="#" id="telegram-logo" class="socials-logo">
+                <a href="#" id="footer-telegram-logo" class="footer-socials-logo">
                     <svg xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57" fill="none">
                     <rect x="0.227539" width="56.2279" height="56.2279" rx="28.1139" fill="url(#paint0_linear_52_6250)" fill-opacity="0.02"/>
                     <rect x="0.692362" y="0.464823" width="55.2982" height="55.2982" rx="27.6491" stroke="#C6E5F7" stroke-opacity="0.1" stroke-width="0.929646"/>
@@ -34,7 +34,7 @@
                     </defs>
                     </svg>
                 </a>
-                <a href="#" id="linktree-logo" class="socials-logo">
+                <a href="#" id="footer-linktree-logo" class="footer-socials-logo">
                     <svg xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57" fill="none">
                     <rect x="0.456055" width="56.2279" height="56.2279" rx="28.1139" fill="url(#paint0_linear_52_6252)" fill-opacity="0.02"/>
                     <rect x="0.920877" y="0.464823" width="55.2982" height="55.2982" rx="27.6491" stroke="#C6E5F7" stroke-opacity="0.1" stroke-width="0.929646"/>
@@ -48,7 +48,7 @@
                     </defs>
                     </svg>
                 </a>
-                <a href="#" id="mail-logo" class="socials-logo">
+                <a href="#" id="footer-mail-logo" class="footer-socials-logo">
                     <svg xmlns="http://www.w3.org/2000/svg" width="57" height="57" viewBox="0 0 57 57" fill="none">
                     <rect x="0.683594" width="56.2279" height="56.2279" rx="28.1139" fill="url(#paint0_linear_52_6255)" fill-opacity="0.02"/>
                     <rect x="1.14842" y="0.464823" width="55.2982" height="55.2982" rx="27.6491" stroke="#C6E5F7" stroke-opacity="0.1" stroke-width="0.929646"/>
@@ -62,11 +62,11 @@
                     </svg>
                 </a>
             </div>
-    </nav>
-    <div id="nav-buttons">
-                <a href="#"><div class="nav-button" id="nav-button-1">Community</div></a>
-                <a href="#"><div class="nav-button" id="nav-button-2">Market News</div></a>
-                <a href="#"><div class="nav-button" id="nav-button-3">Comic book</div></a>
+    </div>
+    <div id="footer-nav-buttons">
+                <a href="#"><div class="footer-nav-button" id="footer-nav-button-1">Community</div></a>
+                <a href="#"><div class="footer-nav-button" id="footer-nav-button-2">Market News</div></a>
+                <a href="#"><div class="footer-nav-button" id="footer-nav-button-3">Comic book</div></a>
     </div>
 </div> 
 </template>
@@ -86,7 +86,7 @@
 }
 
 
-nav {
+#nav {
     width: 70%;
     display: flex;
     flex-direction: row;
@@ -95,7 +95,7 @@ nav {
     align-items: center;
 }
 
-#title {
+#footer-title {
     color: #FF9C2D;
     font-family: Baloo;
     font-size: 26px;
@@ -105,7 +105,7 @@ nav {
     -webkit-text-stroke: 1px white;
 }
 
-.section-link {
+.footer-section-link {
     color: #FFF;
     text-align: center;
     font-family: Product Sans Light;
@@ -116,22 +116,22 @@ nav {
     letter-spacing: 0.2px;
 }
 
-#socials {
+#footer-socials {
     display: flex;
     gap: 40px;
 }
 
-#nav-buttons {
+#footer-nav-buttons {
     display: flex;
     gap: 30px;
     padding-bottom: 40px;
 }
 
-#nav-buttons a {
+#footer-nav-buttons a {
     text-decoration: none;
 }
 
-.nav-button {
+.footer-nav-button {
     padding: 10px 20px;
     border-radius: 25px;
     border: 1px solid #FCD493;
@@ -144,47 +144,47 @@ nav {
 }
 
 @media screen and (max-width: 1440px) {
-    #title {
+    #footer-title {
         font-size: 21px;
         -webkit-text-stroke: 0.5px white;
     }
 
-    .section-link {
+    .footer-section-link {
         font-size: 16px;
     }
 
-    #socials {
+    #footer-socials {
         gap: 25px;
     }
 
-    #socials svg {
+    #footer-socials svg {
         width: 40px;
     }
 }
 
 @media screen and (max-width: 1260px) {
-    nav {
+    #nav {
         flex-direction: column;
         gap : 35px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    nav {
+    #nav {
         gap: 30px;
     }
 
-    #nav-buttons {
+    #footer-nav-buttons {
         display: none;
     }
 }
 
 @media screen and (max-width: 400px) {
-    #socials {
+    #footer-socials {
         gap: 15px;
     }
 
-    #socials svg {
+    #footer-socials svg {
         width: 35px;
     }
 }
